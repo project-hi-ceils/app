@@ -53,14 +53,43 @@
                 <label for="zipcode">Zip:</label>
                 <input type="text" name="zipcode" id="zipcode">
 
-                <label for="select-choice-a" class="select">Number of bedrooms:</label>
+                <label for="select-choice-a" class="select">Home type:</label>
                 <select name="select-choice-a" id="select-choice-a" data-native-menu="false">
-                    <option>Number of bedrooms</option>
-                    <option value="standard">Standard: 7 day</option>
-                    <option value="rush">Rush: 3 days</option>
-                    <option value="express">Express: next day</option>
-                    <option value="overnight">Overnight</option>
+                    <option>Home type</option>
+                    <option value="house">House</option>
+                    <option value="apartman">Apartment</option>
+                    <option value="condo-co-op">Condo/Co-op</option>
+                    <option value="townhome">Townhome</option>
                 </select>
+
+                <label for="select-choice-a" class="select">No. of bedrooms:</label>
+                <select name="select-choice-a" id="select-choice-a" data-native-menu="false">
+                    <option>No. of bedrooms</option>
+                    <option value="one">1</option>
+                    <option value="onplus">1+</option>
+                    <option value="two">2</option>
+                    <option value="twoplus">2+</option>
+                    <option value="three">3</option>
+                    <option value="threeplus">3+</option>
+                </select>
+
+                <label for="select-choice-a" class="select">No. of bathrooms:</label>
+                <select name="select-choice-a" id="select-choice-a" data-native-menu="false">
+                    <option>No. of bathrooms</option>
+                    <option value="one">1</option>
+                    <option value="onplus">1+</option>
+                    <option value="two">2</option>
+                    <option value="twoplus">2+</option>
+                    <option value="three">3</option>
+                    <option value="threeplus">3+</option>
+                </select>
+
+                <div data-role="rangeslider">
+                    <label for="range-1a">Budget:</label>
+                    <input type="range" name="range-1a" id="range-1a" min="0" max="100" value="0">
+                    <label for="range-1b">Rangeslider:</label>
+                    <input type="range" name="range-1b" id="range-1b" min="0" max="999999" value="25000">
+                </div>
 
                 <label for="bday">Date of Birth:</label>
                 <input type="date" name="bday" id="bday">
